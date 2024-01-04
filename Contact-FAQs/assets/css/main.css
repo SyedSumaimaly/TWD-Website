@@ -105,6 +105,13 @@ body {
     text-transform: uppercase;
 }
 
+/* FAQ */
+
+.FAQ_heading{
+    text-align: center;
+    color: #6fb134 !important;
+}
+
 /* Images */
 
 .img-scale {

@@ -327,6 +327,12 @@ input:-ms-input-placeholder {
     color: white;
 }
 
+.searchBar button:hover{
+    background-color: #6fb134;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
 .forms__label {
     position: relative;
     display: inline-block;
