@@ -3697,7 +3697,6 @@ html .list li i {
 
 html .breadcrumb-item+.breadcrumb-item::before {
     vertical-align: -9%;
-    content: "/";
 }
 
 .b-seller__main .list {
