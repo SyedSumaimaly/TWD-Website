@@ -10,7 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta content="telephone=no" name="format-detection" />
   <meta name="HandheldFriendly" content="true" />
-  <link rel="stylesheet" href="assets/css/master.css" />
+  <link rel="stylesheet" href="assets/css/master.css" />\
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- SWITCHER-->
   <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
   <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
@@ -52,6 +53,9 @@
           <a class="nav-link" href="../free-trial/freetrial.html">Free Trial</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="../About-Pricing/blogs.html">Blogs</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="../Contact-FAQs/Contact.html">Contact</a>
         </li>
         <li class="nav-item">
@@ -86,6 +90,7 @@
                         class="sr-only">(current)</span></a></li>
                   <li class="nav-item"><a class="nav-link" href="../TWD Special/twdSpecial.html">TWD Special</a></li>
                   <li class="nav-item"><a class="nav-link" href="../free-trial/freetrial.html">Free Trial</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../About-Pricing/blogs.html">Blogs</a></li>
                   <li class="nav-item"><a class="nav-link" href="../Contact-FAQs/Contact.html">Contact</a></li>
                   <li class="nav-item"><a class="nav-link" href="../Contact-FAQs/FAQs.html">FAQ's</a></li>
                 </ul>
@@ -135,7 +140,7 @@
         <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
             <div class="flex flex-wrap ">
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                    <div class="relative lg:max-w-md">
+                    <div data-aos="fade-right"   class="relative lg:max-w-md">
                         <img src="https://i.postimg.cc/rF0MKfBV/pexels-andrea-piacquadio-3760263.jpg" alt="aboutimage"
                             class="relative z-10 object-cover w-full rounded h-96">
                         <div
@@ -152,14 +157,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-                    <div class="pl-4 mb-6 border-l-4 border-[#6fb134] ">
+                <div data-aos="fade-left" class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
+                    <div data-aos="fade-up" class="pl-4 mb-6 border-l-4 border-[#6fb134] ">
+             
                         <span class="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
                         <h1 class="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
                             About Us
                         </h1>
                     </div>
-                    <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
+                    <p data-aos="fade-down" class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
@@ -169,7 +175,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         Lorem ipsum dolor sit amet.
                     </p>
-                    <a href="#" style="text-decoration: none;"
+                    <a data-aos="fade-up" href="#" style="text-decoration: none;"
                         class="px-4 py-2 text-gray-100 hover:text-white bg-[#6fb134] rounded dark:bg-blue-400 dark:hover:bg-blue-500 hover:bg-[#f0a837]">
                         Learn more
                     </a>
@@ -178,10 +184,7 @@
         </div>
     </section>
 
-<!-- animation -->
 
-<div class="animate-box animate-box-1"></div>
-<div class="animate-circle animate-circle-1"></div>
 
 
       <!-- end .b-title-page-->
@@ -210,6 +213,7 @@
         <!-- <div class="bg-white shadow transition-all rounded-[10px] max-w-full w-[90%] mx-auto">
         </div> -->
         <h1
+        data-aos="zoom-in"
           class="text-center text-[#6fb134] mb-[60px] mt-[80px] max-w-[750px] w-[550px] mx-auto text-[34px] font-bold">
           We offer the best experience with our rental deals
         </h1>
@@ -217,6 +221,8 @@
         <div
           class="flex sm:flex-row flex-col items-center sm:justify-between justify-center sm:px-0 px-2 sm:space-y-0 space-y-2 max-w-full sm:w-[80%] w-full mx-auto">
           <div
+          data-aos="fade-up"
+     data-aos-duration="500"
             class="bg-[#f7fee7] hover:bg-[#ecfccb] transition-all rounded-[10px] max-w-full sm:w-[33%] w-full p-[20px] flex flex-col items-center justify-center text-center">
             <!-- <img src="./assets//media//content/b-title-page/investor.png" alt="investor" /> -->
             <h4 class="text-[18px] text-[#6fb134] font-bold">Investors</h4>
@@ -229,6 +235,8 @@
               style="text-decoration: none">Look</a>
           </div>
           <div
+          data-aos="fade-up"
+     data-aos-duration="900"
             class="bg-[#f7fee7] hover:bg-[#ecfccb] transition-all rounded-[10px] max-w-full sm:w-[33%] w-full p-[20px] flex flex-col items-center justify-center text-center">
             <!-- <img src="./assets//media//content/b-title-page/investor.png" alt="investor" /> -->
             <h4 class="text-[18px] text-[#6fb134] font-bold">Media</h4>
@@ -241,6 +249,8 @@
               style="text-decoration: none">Look</a>
           </div>
           <div
+          data-aos="fade-up"
+     data-aos-duration="1100"
             class="bg-[#f7fee7] hover:bg-[#ecfccb] transition-all rounded-[10px] max-w-full sm:w-[33%] w-full p-[20px] flex flex-col items-center justify-center text-center">
             <!-- <img src="./assets//media//content/b-title-page/investor.png" alt="investor" /> -->
             <h4 class="text-[18px] text-[#6fb134] font-bold">Careers</h4>
@@ -253,7 +263,8 @@
               style="text-decoration: none">Look</a>
           </div>
         </div>
-        <div class="typography-section typography-section-border border-none pt-5">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" class="typography-section typography-section-border border-none pt-5">
           <section class="section-area">
             <div class="container">
               <div class="row">
@@ -316,11 +327,11 @@
         <!-- IMAGES CONTENT -->
         <div
           class="sm:pt-1 mt-4 shadow-normal max-w-full sm:w-[65%] w-[90%] mx-auto flex flex-row flex-wrap items-center justify-center space-x-4 rounded-[50px] py-[15px] px-[10px] mb-10 border border-gray-200">
-          <img src="./assets//media/content/b-title-page/hotel.png" alt="hotel" class="w-32" />
-          <img src="./assets//media/content/b-title-page/entals.png" alt="rental" class="w-32" />
-          <img src="./assets//media/content/b-title-page/tickets.png" alt="tickets" class="w-32" />
-          <img src="./assets//media/content/b-title-page/trivago.png" alt="trivago" class="w-32" />
-          <img src="./assets//media/content/b-title-page/wire.png" alt="wire" class="w-32" />
+          <img data-aos="fade-up" src="./assets//media/content/b-title-page/hotel.png" alt="hotel" class="w-32" />
+          <img data-aos="fade-down" src="./assets//media/content/b-title-page/entals.png" alt="rental" class="w-32" />
+          <img data-aos="fade-up" src="./assets//media/content/b-title-page/tickets.png" alt="tickets" class="w-32" />
+          <img data-aos="fade-down" src="./assets//media/content/b-title-page/trivago.png" alt="trivago" class="w-32" />
+          <img data-aos="fade-up" src="./assets//media/content/b-title-page/wire.png" alt="wire" class="w-32" />
         </div>
         <!-- <div class="typography-section typography-section-border">
             <div class="container">
@@ -550,7 +561,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="footer-section footer-section_info">
                 <div class="footer-logo">
-                  <a class="footer-logo__link" href="../index.html"><img class="img-responsive"
+                  <a class="footer-logo__link" href="home.html"><img class="img-responsive"
                       src="assets/media/camp/logo-w.png" alt="Logo" /></a>
                 </div>
                 <div class="footer-info">
@@ -649,6 +660,10 @@
   <!-- ++++++++++++-->
   <!-- MAIN SCRIPTS-->
   <!-- ++++++++++++-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="assets/plugins/jquery.js"></script>
   <script src="assets/plugins/jquery-migrate.js"></script>
   <script src="assets/plugins/popper.min.js"></script>

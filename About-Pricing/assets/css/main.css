@@ -93,7 +93,16 @@ body {
     margin-bottom: 3px;
     opacity: 0.9;
 }
+.fade-in-text {
+    font-family: Arial;
+    /* font-size: 150px; */
+    animation: fadeIn 5s;
+  }
 
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .ui-title-inner {
     color: #253241;
     font: 700 30px Montserrat;
