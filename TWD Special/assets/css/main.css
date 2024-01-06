@@ -5942,3 +5942,48 @@ html .btn-border:hover {
     color: #222;
     position: relative;
 }
+
+/* animation box & circle */
+
+.animate-box-1{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.animate-circle-1{
+    position: absolute;
+    right: 1%;
+    top: 14%;
+    width: 100px;
+    height: 100px;
+}
+
+/* animation */
+
+.animate-box{
+    background-color: #f0a937;
+    opacity: 0.3;
+    animation: rotate 5s linear infinite;
+}
+
+.animate-circle{
+    border: solid 3px white;
+    border-top: solid 3px #6fb134;
+    border-right: solid 3px #6fb134;
+    border-radius: 50%;
+    /* background-color: #f0a937; */
+    opacity: 0.5;
+    animation: rotate 5s linear infinite reverse;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }

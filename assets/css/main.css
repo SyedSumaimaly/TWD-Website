@@ -3222,7 +3222,7 @@ html .breadcrumb-item+.breadcrumb-item::before {
     vertical-align: -9%;
 }
 
-..b-seller__main .list {
+.b-seller__main .list {
     margin-bottom: 20px;
     padding-left: 0;
     list-style-type: none;
@@ -5465,3 +5465,61 @@ html .btn-border:hover {
     color: #222;
     position: relative;
 }
+
+/* animation box & circle */
+
+.animate-box-1{
+    position: absolute;
+    left: 5%;
+    width: 150px;
+    height: 150px;
+}
+
+.animate-circle-1{
+    position: absolute;
+    right: 5%;
+    top: 27%;
+    width: 100px;
+    height: 100px;
+}
+
+.animate-box-2{
+    position: absolute;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+.animate-circle-2{
+    position: absolute;
+    left: 5%;
+    top: 73%;
+    width: 100px;
+    height: 100px;
+}
+/* animation */
+
+.animate-box{
+    background-color: #f0a937;
+    opacity: 0.3;
+    animation: rotate 5s linear infinite;
+}
+
+.animate-circle{
+    border: solid 3px white;
+    border-top: solid 3px #6fb134;
+    border-right: solid 3px #6fb134;
+    border-radius: 50%;
+    /* background-color: #f0a937; */
+    opacity: 0.5;
+    animation: rotate 5s linear infinite reverse;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
