@@ -6245,3 +6245,15 @@ html .btn-border:hover {
       transform: rotateZ(360deg);
     }
   }
+
+
+  /* Quiz & Play */
+
+  .confirmbtn{
+    padding: 1%;
+    border-radius: 5px;
+    width: 20%;
+    border: transparent;
+    color:white;
+    background-color: #6fb134;
+  }
