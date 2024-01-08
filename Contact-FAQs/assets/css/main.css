@@ -6257,3 +6257,7 @@ html .btn-border:hover {
     color:white;
     background-color: #6fb134;
   }
+
+  .quiz_list span{
+    font-size: 18px;
+  }

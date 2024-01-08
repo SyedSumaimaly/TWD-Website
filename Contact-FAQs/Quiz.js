@@ -7,7 +7,7 @@ var onIdlePositionView = document.getElementById('onIdlePositionView');
 var lp = new locationPicker('map', {
   setCurrentPosition: true, // You can omit this, defaults to true
 }, {
-  zoom: 15 // You can set any google map options here, zoom defaults to 15
+  zoom: 18 // You can set any google map options here, zoom defaults to 18
 });
 
 // Listen to button onclick event
